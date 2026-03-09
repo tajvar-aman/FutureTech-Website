@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#lg {
+    margin-top: 15px;
+    margin-left: 80px;
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+#navbar {
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 40px;
+    transition: .3s;
+}
+
+#navbar a:hover {
+    color: #22c55e;
+}
+
+#trialbtn {
+    text-decoration: none;
+    background: #22c55e;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.margin {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+#live {
+    font-size: 56px;
+    color: #38bdf8;
+}
+
+#unleash {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #cbd5f5;
+    margin-bottom: 40px;
+}
+
+#aboutbtn {
+    background: #6366f1;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#bookbtn {
+    background: #22c55e;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+}
+
+#hero {
+    width: 420px;
+    height: 300px;
+    background: #1e293b;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+#ourCourses {
+    margin-top: 200px;
+    background: #020617;
+    padding-bottom: 80px;
+}
+
+#oc {
+    text-align: center;
+    padding-top: 80px;
+    color: #22c55e;
+}
+
+#explore {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+#banner {
+    width: 600px;
+    height: 350px;
+    background: #1e293b;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 270px 270px;
+    grid-gap: 20px;
+    margin-left: 50px;
+}
+
+.grid {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.grid h3 {
+    margin-top: 10px;
+}
+
+.grid p {
+    color: #cbd5f5;
+    margin-top: 10px;
+}
+
+.grid a {
+    color: #22c55e;
+    text-decoration: none;
+}
+
+.product-img {
+    height: 120px;
+    background: #334155;
+    border-radius: 10px;
+}
+
+#free {
+    background: #22c55e;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#free p {
+    color: black;
+    margin-bottom: 20px;
+}
+
+#free a {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+#globe {
+    text-align: center;
+    background: #0f172a;
+    padding: 100px;
+}
+
+.world-img {
+    width: 800px;
+    height: 300px;
+    background: #1e293b;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#final {
+    text-align: center;
+    background: #020617;
+    padding: 100px;
+}
+
+.finalbtn {
+    background: #22c55e;
+    padding: 15px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    margin-top: 40px;
+    color: #94a3b8;
+}
